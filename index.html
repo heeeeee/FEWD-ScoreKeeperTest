@@ -3,6 +3,13 @@
 <head>
 	<title>Score Keeper</title>
 	<link rel="stylesheet" href="css/style.css" />
+
+	<script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+  	<script src="app.js"></script>
 </head>
 <body>
 
@@ -14,12 +21,14 @@
 	<div class="margin-top-20">
 		<button class="button-1" id="decrease-5">-5 Points</button>
 	</div>
-	<div class="margin-top-20">
-		<input id="custom-score" type="text" placeholder="Set a custom score" />
-	</div>
-	<div class="margin-top-20">
-		<button id="submit-custom-score" class="button-2">Set Score</button>
-	</div>
+	<form id="custom-score-form">
+		<div class="margin-top-20">
+			<input id="custom-score" type="text" placeholder="Set a custom score" />
+		</div>
+		<div class="margin-top-20">
+			<button id="submit-custom-score" class="button-2">Set Score</button>
+		</div>
+	</form>
 </div>
 
 </body>
